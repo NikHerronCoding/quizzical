@@ -5,14 +5,14 @@
 
 .blob-1 {
     position:absolute;
-    top:-400px;
-    right:-400px;
-    width: 50rem;
+    top:-10vw;
+    right:-10vw;
+    width: 30vw;
 }
 
 .blob-2 {
     position:absolute;
-    bottom:-180px;
-    left:-180px;
-    width:30rem;
+    bottom:-10vw;
+    left:-10vw;
+    width:30vw;
 }
