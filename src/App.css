@@ -4,6 +4,8 @@ body {
   justify-content: center;
   align-items: center;
   height:100vh;
+  color: #293264;
+  font-family: 'Karla';
 }
 
 #root {
@@ -12,4 +14,13 @@ body {
   justify-content: space-between;
   align-items:center;
 }
+
+.intro-title {
+  text-align: center;
+  font-size: 31.25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
 
