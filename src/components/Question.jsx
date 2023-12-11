@@ -23,9 +23,8 @@ export default function Question(props) {
         return <Answer key={index} data={he.decode(ele)}/>
     })
 
-    console.log(answers)
     return (<div className="question">
         <h2>{he.decode(props.data.question)}</h2>
-            {answerItems}
+           <div className="answer-container">{answerItems}</div> 
     </div>)
 }

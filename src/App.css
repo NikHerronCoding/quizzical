@@ -1,9 +1,13 @@
+* {
+  box-sizing: border-box;
+}
 body {
   background: #F5F7FB;
   display:flex;
   justify-content: center;
   align-items: center;
   height:100vh;
+  max-height: 100vh;
   color: #293264;
   font-family: 'Karla';
 }
@@ -12,7 +16,7 @@ body {
   display:flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items:center;
+  align-items:left;
 }
 
 .intro-title {
@@ -23,4 +27,14 @@ body {
   line-height: normal;
 }
 
+.answer-container {
+  display:flex;
+}
+
+.answer {
+  margin:1em;
+  padding:0.25em 1em;
+  border: 2px solid #293264;
+  border-radius: 20px;
+}
 
