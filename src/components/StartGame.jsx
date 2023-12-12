@@ -5,7 +5,7 @@ export default function StartGame(props) {
         <>
             <h1 className="intro-title">Quizzical</h1>
             <h3>A quiz game written in React, based on the OpenTrivia API</h3>
-            <button onClick={props.click}>
+            <button className="button" onClick={props.click}>
                 Start Quiz
             </button>
         </>
