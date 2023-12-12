@@ -21,7 +21,7 @@ body {
 
 .intro-title {
   text-align: center;
-  font-size: 31.25px;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -39,9 +39,24 @@ body {
 }
 
 .question {
-  border-bottom:2px solid black;
+  border-bottom:2px solid #DBDEF0;
   margin:1rem;
   padding:1rem;
+}
+
+.question-container {
+  max-width:80%;
+  align-items:center;
+  justify-content:center;
+  flex-direction: column;
+}
+
+.question {
+
+  align-items:center;
+  justify-content:center;
+  flex-direction: column;
+  
 }
 
 
@@ -52,6 +67,7 @@ body {
 }
 .answer-container {
   display:flex;
+  flex-wrap:wrap;
 }
 
 .answer {
@@ -60,6 +76,7 @@ body {
   border: 2px solid #293264;
   border-radius: 20px;
   font-weight:600;
+  white-space: nowrap;
 }
 
 .wrong {
@@ -77,3 +94,9 @@ body {
   margin:2rem;
 }
 
+
+@media(max-width:500px) {
+  :root{
+    font-size: 12px;
+  }
+}

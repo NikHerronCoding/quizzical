@@ -5,8 +5,6 @@ import { v4 as uuidv4 } from 'uuid';
 import StartGame from './components/StartGame'
 import Quiz from './components/Quiz'
 
-
-
 function App() {
   let url = `https://opentdb.com/api.php?amount=5&type=multiple`
 
