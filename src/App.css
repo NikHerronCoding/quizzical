@@ -45,10 +45,6 @@ body {
 }
 
 .question-container {
-  max-width:80%;
-  align-items:center;
-  justify-content:center;
-  flex-direction: column;
 }
 
 .question {
@@ -89,9 +85,7 @@ body {
   background:#94D7A2;
 }
 .stats {
-  display:flex;
-  justify-content: center;
-  margin:2rem;
+
 }
 
 
